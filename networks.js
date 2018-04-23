@@ -60,8 +60,8 @@ exports.testnet = {
   defaultClientPort: 18333
 };
 
-exports.dcrdlivenet = {
-  name: 'dcrdlivenet',
+exports.aeqdlivenet = {
+  name: 'aeqdlivenet',
   magic: hex('f900b4d9'),
   addressVersion: 0x073f,
   privKeyVersion: 0x22de,
@@ -79,16 +79,13 @@ exports.dcrdlivenet = {
     bits: "207ffffff",
   },
   dnsSeeds: [
-    "mainnet-seed.decred.mindcry.org",
-    "mainnet-seed.decred.netpurgatory.com",
-    "mainnet.decredseed.org",
-    "mainnet-seed.decred.org"
+    "main.seed.aequator.io"
   ],
   defaultClientPort: 9108
 };
 
-exports.dcrdtestnet = {
-  name: 'dcrdtestnet',
+exports.aeqdtestnet = {
+  name: 'aeqdtestnet',
   magic: hex('65a0e748'),
   addressVersion: 0x0f21,
   privKeyVersion: 0x230e,
@@ -107,10 +104,7 @@ exports.dcrdtestnet = {
     bits: "1e00ffff",
   },
   dnsSeeds: [
-    "testnet-seed.decred.mindcry.org",
-    "testnet-seed.decred.netpurgatory.org",
-    "testnet.decredseed.org",
-    "testnet-seed.decred.org"
+    "test.seed.aequator.io"
   ],
   defaultClientPort: 19108
 };
